@@ -323,6 +323,13 @@ html {
     font-size: 18px;
     line-height: 1.5;
 }
+.contact-info a {
+    opacity: 0.8;
+    color: #101aef;
+}
+.contact-info a:hover {
+    opacity: 1;
+}
 .contact-info i[class*="ti-"] {
     width: 30px;
     display: inline-block;
