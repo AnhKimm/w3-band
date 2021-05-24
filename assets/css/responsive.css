@@ -1,9 +1,9 @@
 /* PC */
-@media (max-width: 1024) {
+@media (max-width: 64em) {
     
 }
 /* Table & Mobie */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .button {
         padding: 15px 16px;
     }
@@ -13,10 +13,10 @@
     .contact-info {
         line-height: 2;
     }
-
+/* 
     #footer .social-list a {
-        margin: 0 8px;
-    }
+        margin: 0 4px;
+    } */
     #footer .copyright a {
         padding: 12px 0;
         display: inline-block;
@@ -27,17 +27,17 @@
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     .contact-info {
         line-height: 2;
     }
-    #footer .social-list {
-        font-size: 48px;
+    #footer .social-list { */
+        font-size: 28px;
     }
 }
 
 /* Mobie */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     #nav {
         display: block;
     }
@@ -72,6 +72,9 @@
     #content .member-img {
         width: 60%;
     }
+    .send-form {
+        font-size: 16px;
+    }
     .s-full-width,
     .s-col-full {
         width: 100% !important;
@@ -81,6 +84,13 @@
     }
     .contact-form {
         margin-top: 32px;
+    }
+    .contact-form .form-control {
+        font-size: 16px;
+    }
+    .button {
+        width: 100%;
+        text-align: center;
     }
 
 }

@@ -68,11 +68,13 @@ html {
     display: inline-block;
     margin-top: 15px;
     border: none;
-    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
 }
 .button:hover {
     color: #000;
     background-color: #ccc;
+    cursor: pointer;
 }
 .pull-right {
     float: right !important;
@@ -182,7 +184,8 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
+
 
 }
 #slider .text-content {
@@ -205,6 +208,7 @@ html {
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 
 }
 #content .content-section {
